@@ -29,17 +29,10 @@ import pyfiglet
 graphics = pyfiglet.figlet_format("Rock-Paper-Scissor Game", font="slant")
 print(graphics)
 
-
-
-
-
-
-
 def play(direction):
   user_chs = input("What do you choose? Type 0 for Rock, 1 for paper, and 2 for scissor")
   user_ch = int(user_chs)
   game(user_ch)
-
 
 def game(user_ch):
   if user_ch == 0:
@@ -92,8 +85,6 @@ def direction_choice():
     play(direction)
   else:
     print("GAME FINISHED")
-
-
 
 user_chs=input("What do you choose? Type 0 for Rock, 1 for paper, and 2 for scissor")
 user_ch=int(user_chs)
